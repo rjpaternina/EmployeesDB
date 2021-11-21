@@ -1,2 +1,2 @@
 # EmployeesDB
-This is a an employees data base
+This is an employees data base
