@@ -11,6 +11,11 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors({origen:'*'}));
 
 
+//RUTAS
+
+app.use('/jefe', require('./routes/Jefe.routes'))
+app.use('/empleados', require('./routes/Empleado.routes'))
+
 //PUERTO
 
 app.set('puerto', process.env.PORT || 4000);
